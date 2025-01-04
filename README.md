@@ -10,7 +10,7 @@ GPT partition table:
 
 ## Install GRUB2 on the usb drive
 
-1. Mount the usb drive to `/mnt`
+1. Mount the (fat32) efi partition of the usb drive to `/mnt`
 2. Run `grub-install --force --removable --target=x86_64-efi --boot-directory=/mnt/boot --efi-directory=/mnt /dev/sdX` (replace `/dev/sdX` with the path of the usb drive)
 
 ## Setup the Script
