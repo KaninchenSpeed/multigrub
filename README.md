@@ -18,3 +18,8 @@ GPT partition table:
 2. `EFI-partition-id` with the uuid of the (fat32) efi partition of the usb drive
 3. Copy iso files to the ext4 partition
 4. Run `sudo ./update.sh` while in the ext4 partition (rerun this when changing the iso files)
+
+
+### Additional Info
+
+This script was tested with debian live images and manjaro live images
